@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammad Ahmed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <div class="container">
+                <h1 id="intro-text">Hi, I am <span>Muhammad Ahmed</span></h1>
+                <p>Computer Engineering Student | Aspiring Developer</p>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    Motivated and dedicated computer engineering student seeking an opportunity to apply and enhance technical
+                    skills. Eager to contribute to innovative projects and collaborate with professionals in a dynamic environment.
+                </p>
+            </div>
+        </section>
+        <section id="projects" class="section bg-dark">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="cards">
+                    <div class="card project-card">
+                        <h3>Construction Management System</h3>
+                        <p>A comprehensive platform for efficient project oversight, incorporating resource management, budgeting, and analytics.</p>
+                    </div>
+                    <div class="card project-card">
+                        <h3>Pneumonia Detection System</h3>
+                        <p>AI-based detector capable of identifying pneumonia cases with datasets in XLS format.</p>
+                    </div>
+                    <div class="card project-card">
+                        <h3>Next Word Predictor</h3>
+                        <p>NLP model leveraging LSTMs for text generation and next-word prediction.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                
+                <!-- Languages Section -->
+                <h3>Languages:</h3>
+                <div class="skills-logos">
+                    <img src="path-to-python-logo.png" alt="Python Logo" class="skill-logo">
+                    <img src="path-to-java-logo.png" alt="Java Logo" class="skill-logo">
+                    <img src="path-to-cpp-logo.png" alt="C++ Logo" class="skill-logo">
+                    <img src="path-to-sql-logo.png" alt="SQL Logo" class="skill-logo">
+                </div>
+                
+                <!-- Developer Tools Section -->
+                <h3>Developer Tools:</h3>
+                <div class="skills-logos">
+                    <img src="path-to-vscode-logo.png" alt="VS Code Logo" class="skill-logo">
+                    <img src="path-to-intellij-logo.png" alt="IntelliJ IDEA Logo" class="skill-logo">
+                    <img src="path-to-visualstudio-logo.png" alt="Visual Studio Logo" class="skill-logo">
+                </div>
+        
+                <!-- Technologies / Frameworks Section -->
+                <h3>Technologies / Frameworks:</h3>
+                <div class="frameworks-container">
+                    <p>PyTorch</p>
+                    <p>Pandas</p>
+                    <p>Matplotlib</p>
+                    <p>Linux</p>
+                    <p>NumPy</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section bg-dark">
+            <div class="container">
+                <h2>Contact</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Muhammad Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
